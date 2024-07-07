@@ -18,16 +18,6 @@ const identity = {
     const finished = false;
     const goal = 3;
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/icons8-blog-96.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-	</head>
-	<body>
         <BaseLayout pageTitle={pageTitle}>
         
             <p>Estoy trabajando en el tutorial introductorio de Astro. Esta es la segunda página de mi sitio web, ¡y es la primera que he construido yo mismo!</p>
@@ -50,7 +40,3 @@ const identity = {
             {goal === 3 ? <p>Mi objetivo es terminar en 3 días.</p> : <p>Mi objetivo no son 3 días.</p>}
         
         </BaseLayout>
-        </body>
-
-	
-</html>
